@@ -2,7 +2,6 @@ package com.sula.departmentservice.controller;
 
 import com.sula.departmentservice.entity.Department;
 import com.sula.departmentservice.service.DepartmentService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/departments")
-@Slf4j
 @CrossOrigin(origins = "http://localhost:9002")
 public class DepartmentController {
 

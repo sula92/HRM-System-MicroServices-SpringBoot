@@ -1,9 +1,7 @@
 package com.sula.userservice.VO;
 
 import com.sula.userservice.entity.User;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 
 public class ResponseTemplateVO {
